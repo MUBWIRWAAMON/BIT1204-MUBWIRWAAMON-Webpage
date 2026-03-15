@@ -1,0 +1,87 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f4f6f9;
+}
+
+header{
+    background:#1f2937;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.profile{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    padding:40px;
+}
+
+.profile img{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    
+    border:5px solid #1f2937;
+}
+
+.bio{
+    max-width:500px;
+}
+
+.projects{
+    text-align:center;
+    padding:40px;
+}
+
+.project-card{
+    background:white;
+    margin:20px auto;
+    padding:20px;
+    width:60%;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.links{
+    text-align:center;
+    padding:40px;
+}
+
+.links a{
+    text-decoration:none;
+    margin:10px;
+    padding:12px 20px;
+    background:#2563eb;
+    color:white;
+    border-radius:6px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#1f2937;
+    color:white;
+}
+.technologies{
+    text-align:center;
+    padding:40px;
+}
+
+.tech-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    margin-top:20px;
+}
+
+.tech-card{
+    background:white;
+    padding:15px 25px;
+    border-radius:8px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    font-weight:bold;
+}
